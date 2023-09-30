@@ -1,18 +1,21 @@
-import { useState } from 'react'
-import './Home.css'
+import { useState } from 'react';
+import Banner from '../components/Banner/index';
+import './Home.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="card">
+    <div>
+        <Banner />
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-      </div>
+        <div className="card"></div> 
+   </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
