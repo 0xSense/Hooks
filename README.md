@@ -1,5 +1,8 @@
 # Hooks
 
-Typescript practice
+# How do I view this application locally?
 
-Typescript introduces Interface, Type,
+```
+  npm install
+  npm run dev
+```
